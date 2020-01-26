@@ -1,3 +1,10 @@
+Components
+------------
+The terraform code will deploy the following Azure resources:
+1. Resource Group
+2. Azure App Service Plan
+3. Azure App Service (Web App supporting ASP.NET)
+
 Assumptions
 ------------
 1. No monitoring required
