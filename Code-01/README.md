@@ -1,4 +1,5 @@
-# Assumptions
+Assumptions
+------------
 1. No monitoring required
 2. No logging required
 3. No code deployment required, default landing page is ok
@@ -7,7 +8,8 @@
 5. Basic Terraform knowledge
 6. Azure knowledge
 
-# Requirements
+Requirements
+------------
 1. Azure Subscription
 2. Account with at least Contributor access to the Azure Subscription
 3. Azure CLI or Azure Cloud Shell
@@ -22,7 +24,8 @@
     - If proxy is required, configure "netsh winttp set proxy" or proxy environment variables
     - AzureRM provider can also be used with Azure Service Principal by uncommenting and populating the block (line 34-37)
 
-# Steps
+Steps
+------------
 1. Login to Azure using Azure CLI or through Azure Cloud Shell
     - Command: az login
 2. If there are multiple subscription, set the account
