@@ -79,7 +79,7 @@ Describe "Convert-HCATCSV" {
             'Ruby Lirio,22' | Add-Content -Path $TDrivePath
             'Ms. Xyz Lirio Ramos,5' | Add-Content -Path $TDrivePath
 
-            # Test best effort sanization
+            # Test best effort sanitization
             'Dr. Mu&lti #Na*me $Test Last,1.0' | Add-Content -Path $TDrivePath
 
             # Get the output values
