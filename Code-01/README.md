@@ -3,7 +3,7 @@ Assumptions
 1. No monitoring required
 2. No logging required
 3. No code deployment required, default landing page is ok
-4. Performance is not required, free tier can be used
+4. Performance is not required, free tier is ok
 5. No Terraform state management required, local state is ok
 5. Basic Terraform knowledge
 6. Azure knowledge
@@ -28,9 +28,10 @@ Steps
 ------------
 1. Login to Azure using Azure CLI or through Azure Cloud Shell
     - Command: az login
-2. If there are multiple subscription, set the account
+2. If there are multiple subscription, set the account's subscription
     - Command: az account set -s [Subscription Name or ID]
 3. Change directory to where the main.tf is extracted/downloaded
+    - Command: cd C:\Projects\HCAT\ (Example Only)
 4. Run Terraform Plan
     - Review the plan, and confirm values are ok
     - Variables can be bypassed using: var = 'foo=bar' (can be set multiple times)
