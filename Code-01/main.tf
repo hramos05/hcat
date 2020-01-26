@@ -1,3 +1,12 @@
+/*
+  The terraform code will deploy the following Azure resources:
+    1. Resource Group
+    2. Azure App Service Plan
+    3. Azure App Service (Web App supporting ASP.NET)
+
+  Author : Heinz Ramos
+  Github : https://github.com/hramos05/hcat/tree/production/Code-01
+*/
 # ------------------------------------------------------------
 #  Variables
 # ------------------------------------------------------------
